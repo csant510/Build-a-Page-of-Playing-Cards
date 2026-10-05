@@ -32,7 +32,9 @@ body {
 
 .middle {
     align-self: center;
+    display: flex;
     font-size: 80px;
+    flex-direction: column;
 }
 
 .right{
@@ -41,4 +43,8 @@ body {
 
 .flipped{
     transform:rotate(180deg) ;
+}
+
+.red{
+    color: red;
 }
