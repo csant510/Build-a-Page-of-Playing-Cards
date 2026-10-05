@@ -34,3 +34,11 @@ body {
     align-self: center;
     font-size: 80px;
 }
+
+.right{
+    align-self: flex-end;
+}
+
+.flipped{
+    transform:rotate(180deg) ;
+}
